@@ -224,7 +224,7 @@ async def settings(_, message):
     lol = await chk_user(message, message.from_user.id)
     if lol == 1:
         return
-    await message.reply_photo(photo="https://graph.org/file/914e6257251a02fde4203.jpg", caption=script.SETTINGS_TXT, reply_markup=buttons1)
+    await message.reply_photo(photo="https://ar-hosting.pages.dev/1755049765969.jpg", caption=script.SETTINGS_TXT, reply_markup=buttons1)
 
 
 
