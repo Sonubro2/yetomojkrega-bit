@@ -75,7 +75,7 @@ async def shop(_, message):
         ]]
     )
     await message.reply_photo(
-        photo="https://graph.org/file/e4f9687a4cbc9e14bd4a1.jpg",
+        photo="https://ar-hosting.pages.dev/1755048730268.jpg",
         caption=f"Hello {name}, welcome to the shop 🛍 ! You'll find everything you need related to bots here, all available for purchase.🛒",
         reply_markup=buttons
     )
@@ -101,7 +101,7 @@ async def rewards_(_, message):
 async def refresh_users(_, message):
     name = message.from_user.first_name
     msg = await message.reply_photo(
-        photo="https://graph.org/file/0b6d1b6937094779f1027.jpg", 
+        photo="https://ar-hosting.pages.dev/1755050115212.jpg", 
         caption="waitoo...")
     await premium_remover()
     await msg.edit_text(f"Heyoo {name},\n\nAll inactive premium users have been removed. Those whose premium time had expired have also been removed. 🍁")
